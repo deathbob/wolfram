@@ -5,18 +5,18 @@
   "version": "0.2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/liquidproof/wolfram.git"
+    "url": "git://github.com/deathbob/wolfram.git"
   },
   "scripts": {
     "test": "tap test/*.js"
   },
   "main": "index.js",
   "engines": {
-    "node": "~0.6.12"
+    "node": "0.6.12"
   },
   "dependencies": {
     "request": "2.1",
-    "o3-xml": "0.1"
+    "o3-xml": ">0.1"
   },
   "devDependencies": {
     "tap": "0.0.x"
